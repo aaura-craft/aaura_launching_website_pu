@@ -1,0 +1,103 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding/border don't expand element size */
+}
+
+/* === Body Styling === */
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('website.svg'); /* Sets the full-page background */
+  background-size: cover; /* Scales image to cover entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures full height */
+  color: #fff;
+  position: relative;
+}
+
+/* === Overlay === */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark layer for readability */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
+  padding: 2rem;
+}
+
+/* === Container === */
+.container {
+  text-align: center;
+  max-width: 1000px;
+}
+
+/* === Logo Styling === */
+.logo {
+  width: 450px;
+  margin-bottom: 1rem;
+}
+
+/* === Header Typography === */
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+/* === Header Subtitle === */
+header h1 span {
+  font-size: 4rem;
+  font-weight: 800;
+  display: block;
+  letter-spacing: 2px;
+  margin-top: 0.0rem;
+}
+
+/* === Tagline Under Logo === */
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* === Main Heading (Launching Soon) === */
+main h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  margin: 2rem 0 1rem;
+}
+
+/* === Subtext Message === */
+.subtext {
+  font-size: 2rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+
+
+.notify-btn:hover {
+  background-color: #0055aa; /* Slightly lighter blue on hover */
+}
+
+/* === Social Media Icons === */
+.social-icons {
+  margin-top: 2rem;
+}
+
+.social-icons a img {
+  width: 40px;
+  margin: 0 0.5rem;
+  transition: transform 0.2s; /* Adds subtle hover animation */
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+/* Logo */
+.logo {
+  width: 500px;
+  margin-bottom: -150px; /* This gives 100px space below logo */
+}
+
